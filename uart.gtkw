@@ -1,0 +1,32 @@
+[dumpfile] "uart.vcd"
+[timestart] 0
+*-24.000000 0 -1
+@28
+tb_uart.clk
+tb_uart.rst
+@200
+-Transmitter
+@28
+tb_uart.tx_start
+@22
+tb_uart.tx_data[7:0]
+@28
+tb_uart.u_tx.state[1:0]
+@24
+tb_uart.u_tx.bit_index[2:0]
+@28
+tb_uart.serial_line
+tb_uart.tx_busy
+tb_uart.tx_done
+@200
+-Receiver
+@28
+tb_uart.u_rx.rx_sync
+tb_uart.u_rx.state[1:0]
+@24
+tb_uart.u_rx.bit_index[2:0]
+tb_uart.u_rx.clk_count[15:0]
+@22
+tb_uart.rx_data[7:0]
+@28
+tb_uart.rx_done

@@ -1,0 +1,7 @@
+# Simulation outputs
+*.vcd
+*.vvp
+*.out
+
+# Personal notes (not published)
+INTERVIEW_QA.md
