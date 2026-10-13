@@ -102,6 +102,12 @@ The testbench connects `uart_tx` directly to `uart_rx` (loopback) and sends 8 by
 
 Each frame takes ~86.8 µs (10 bits × 8.68 µs), matching the expected 115,200 baud timing.
 
+## Simulation Waveform
+
+![UART simulation waveform](waveform.png)
+
+*First two loopback frames (0x55, 0xAA): start bit, 8 data bits sent LSB first, and stop bit on `serial_line`, with the receiver sampling each bit at its midpoint.*
+
 ## Author
 
 Protik Dey
