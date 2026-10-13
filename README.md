@@ -108,6 +108,10 @@ Each frame takes ~86.8 µs (10 bits × 8.68 µs), matching the expected 115,200 
 
 *First two loopback frames (0x55, 0xAA): start bit, 8 data bits sent LSB first, and stop bit on `serial_line`, with the receiver sampling each bit at its midpoint.*
 
+## License
+
+Released under the [MIT License](LICENSE).
+
 ## Author
 
 Protik Dey
